@@ -1,0 +1,140 @@
+
+img { max-width: 100%; }
+:root {
+    --browncolor--: #A2852E;
+    --lightbrowncolor--: #F1EDE0;
+    --greycolor--: #999BA1;
+}
+
+.checked {
+    color: #FEB108;
+}
+
+.sectionHead {
+    background-color: var(--lightbrowncolor--);
+	color: black;
+	font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--greycolor--);
+}
+footer a i:hover{
+    scale: 1.2;
+    transition: .2s;
+}
+
+.head{
+    background-image: url("../img/header/header.png");
+    background-repeat: no-repeat;
+}
+
+
+/***** General style, all sections *****/
+
+.section-container { margin: 0 auto; padding-bottom: 80px; }
+
+.section-container-gray-bg { background: #f8f8f8; }
+
+.section-container-image-bg, 
+.section-container-image-bg h2, 
+.section-container-image-bg h3 { color: #fff; }
+
+.section-container-image-bg .divider-1 span { border-color: #fff; }
+
+.section-description { margin-top: 60px; padding-bottom: 10px; }
+
+.section-description p { margin-top: 20px; padding: 0 120px; }
+.section-container-image-bg .section-description p { opacity: 0.8; }
+
+.section-bottom-button { padding-top: 60px; }
+
+.card-title,
+.card-text {
+    color: var(--browncolor--);
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.card-body {
+    background-color: var(--lightbrowncolor--);
+}
+
+.carousel-control-prev,
+  .carousel-control-next {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  /* start footer */
+footer {
+    background-color: var(--lightbrowncolor--);
+}
+
+footer .aboutus {
+    color: var(--browncolor--);
+
+}
+
+footer .btn {
+    background-color: var(--browncolor--);
+}
+
+footer div ul li a {
+    color: var(--browncolor--);
+    font-weight: 600;
+    font-size: small;
+}
+
+footer .footer {
+    background-color: var(--browncolor--);
+}
+
+/* end footer */
+
+
+
+@media screen and (max-width: 575px) {
+    footer div .row .xsm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+   
+    .off{
+        margin-right: 50px;
+        
+    }
+
+  }
+@media screen and (max-width: 1600px) {
+ nav div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .frame iframe{
+    width:500px ;
+    height:275px;
+ }
+
+  }
+
+
+
+
+
+  
+
+
