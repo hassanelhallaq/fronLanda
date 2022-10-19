@@ -134,7 +134,36 @@ footer .footer {
 
 
 
+.ulNavbar a{
+			color:#a3852e !important;
+		}
+		
+		.product .card-body,.fproduct .card-body{
+			text-align: center;
+		}
+		@media only screen and (max-width: 428px) and (min-width: 343px) {
+			.ulNavbar a{
+				padding-right: 5px !important;
+				padding-left: 5px !important;
+			}
+			.ulNavbar{
+				padding: 5px 5px;
+    			font-size: 14px;
+				justify-content: space-around;
+			}
+		}
+		@media only screen and (max-width: 343px) {
+			.ulNavbar a{
+				padding-right: 5px !important;
+				padding-left: 5px !important;
+			}
+			.ulNavbar{
+				padding: 5px 5px;
+				font-size: 12px;
+				justify-content: space-around;
 
+			}
+		}
   
 
 
