@@ -174,3 +174,70 @@ footer .footer {
   
 
 
+/******** start edits ********/
+.ulNavbar a{
+    color:#a3852e !important;
+}
+.product .card-body,.fproduct .card-body{
+    text-align: center;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span{
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev::before{
+    content: '\f053';
+    left: -20px;
+}
+.owl-carousel .owl-nav button.owl-next::before{
+    content: '\f054';
+    right: -20px;
+
+}
+.owl-carousel .owl-nav button.owl-next::before,
+.owl-carousel .owl-nav button.owl-prev::before{
+    background: #f1ede0aa !important;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 2px 3px 4px #a2852e38;
+    border-radius: 50%;
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    position: absolute;
+    color: #000;
+    z-index: 1;
+}
+@media only screen and (max-width: 428px) and (min-width: 343px) {
+    .ulNavbar a{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .ulNavbar{
+        padding: 5px 5px;
+        font-size: 14px;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 343px) {
+    .ulNavbar a{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .ulNavbar{
+        padding: 5px 5px;
+        font-size: 12px;
+        justify-content: space-around;
+
+    }
+}
+/******** end edits ********/
