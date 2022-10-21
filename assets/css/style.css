@@ -166,7 +166,7 @@ footer .footer {
 		}
 
         .carousel-control-prev,.carousel-control-next{
-			background: #f1ede0;
+            background: #f1ede0aa !important;
     		padding: 20px;
 			opacity: 1;
 			box-shadow: 2px 3px 4px #f1ede063;
@@ -239,5 +239,29 @@ footer .footer {
         justify-content: space-around;
 
     }
+}
+.ddlistSite{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+form >.ddlistSite:not(:last-child){
+    margin-bottom: 20px;
+}
+.ddlistSite label{
+    margin-bottom: 0;
+    margin-right: 30px;
+    width: 80px;
+}
+
+.ddlistSite .form-control{
+    margin-top: 0 !important;
+}
+.backForm{
+    background-color: #A2852E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /******** end edits ********/

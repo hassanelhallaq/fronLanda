@@ -29,7 +29,11 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <style>
+        .owl-prev i,.owl-next i{
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +41,9 @@
     <header class="head">
 
 		<div class="text-center">
+            <a href="index.html">
 			<img src="assets/img/header/logo.svg" alt="" class="">
+            </a>
 		</div>
 
 	</header>
@@ -45,16 +51,16 @@
 	<nav class=" bg-white justify-content-center">
 		<div>
 			<ul class="ulNavbar">
-				  <a class="nav-link text-dark" style="font-weight:550 ;" href="site.html">Holy Sites</a>
+				  <a class="nav-link text-dark"  href="site.html">Holy Sites</a>
 				
 				
-				  <a class="nav-link text-dark" style="font-weight:550 ;" href="courses.html">Courses</a>
+				  <a class="nav-link text-dark"  href="courses.html">Courses</a>
 			
 				
-				  <a class="nav-link text-dark" style="font-weight:550 ;" href="tours.html">Virtual-Tours</a>
+				  <a class="nav-link text-dark"  href="tours.html">Virtual-Tours</a>
 				
 				
-				  <a class="nav-link text-dark" style="font-weight:550 ;" href="index.html">Shop</a>
+				  <a class="nav-link text-dark"  href="index.html">Shop</a>
 				
 			  </ul>
 		</div>
@@ -64,19 +70,34 @@
     <div class="container">
         <div class="row row-cols-xl-2 row-cols-lg-2 row-cols-md-1 row-cols-sm-1  mt-5 justify-content-center ">
 
-            <div class=" text-white d-flex mb-3 " style="background-color: #A2852E;">
+            <div class=" text-white mb-1 backForm" style="background-color: #A2852E; padding: 20px;">
                 <form>
-                    <div class="m-3">
+                    <div class="ddlistSite">
                         <label class="form-label">City</label>
-                        <input type="text" class="form-control">
+                        <select class="form-select form-control mt-sm-2" aria-label="Default select example">
+                            <option selected class="text-black fw-bold">Enter Your City</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
                     </div>
-                    <div class="m-3">
+                    <div class="ddlistSite">
                         <label class="form-label">District</label>
-                        <input type="text" class="form-control">
+                        <select class="form-select form-control mt-2" aria-label="Default select example">
+                            <option selected class="text-black fw-bold">Enter Your District</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
-                    <div class="m-3">
+                    <div class="ddlistSite">
                         <label class="form-label">Site</label>
-                        <input type="text" class="form-control">
+                        <select class="form-select form-control mt-2" aria-label="Default select example">
+                            <option selected class="text-black fw-bold">Enter Site</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
                     </div>
 
                 </form>
