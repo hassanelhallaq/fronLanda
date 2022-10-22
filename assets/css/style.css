@@ -12,10 +12,13 @@ img { max-width: 100%; }
 
 .sectionHead {
     background-color: var(--lightbrowncolor--);
-	color: black;
+	color: #a2852e;
 	font-weight: 600;
+    text-align: center !important;
 }
-
+.titleHead{
+	color: #a2852e !important;
+}
 a{
     text-decoration: none;
     display: inline-block;
@@ -63,6 +66,7 @@ footer a i:hover{
 
 .card-body {
     background-color: var(--lightbrowncolor--);
+    text-align: center;
 }
 
 .carousel-control-prev,
@@ -122,18 +126,12 @@ footer .footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
- }
-
- .frame iframe{
-    width:500px ;
+}
+.frame iframe{
+    width:100%;
     height:275px;
- }
-
-  }
-
-
-
-
+}
+}
 .ulNavbar a{
 			color:#a3852e !important;
 		}
@@ -263,5 +261,24 @@ form >.ddlistSite:not(:last-child){
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.titleDesc{
+    background-image: linear-gradient(90deg,#a2852e,#f1ede0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    max-width: 20ch;
+}
+.paraDesc{
+    color: #76838f;
+    line-height: 1.8;
+    max-width: 100ch;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.secDesc{
+    padding: 50px;
+    background: #f1ede063;
+    border-radius: 26px;
 }
 /******** end edits ********/
